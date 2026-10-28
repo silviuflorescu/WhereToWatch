@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">WhereToWatch</string>
+
+    <string name="search_hint">Search movies</string>
+    <string name="clear_search">Clear search</string>
+
+    <string name="idle_title">Find where to watch</string>
+    <string name="idle_message">Search for a movie to see where you can stream, rent or buy it in your country.</string>
+    <string name="empty_title">No results</string>
+    <string name="empty_message">We couldn\'t find any movie matching \"%1$s\".</string>
+
+    <string name="error_title">Something went wrong</string>
+    <string name="error_network">Check your internet connection and try again.</string>
+    <string name="error_unauthorized">The TMDB token is missing or invalid. Add TMDB_API_TOKEN to local.properties.</string>
+    <string name="error_server">TMDB is having trouble right now (error %1$d).</string>
+    <string name="error_unknown">An unexpected error occurred.</string>
+    <string name="retry">Retry</string>
+    <string name="next_page_failed">Couldn\'t load more movies</string>
+
+    <string name="rating_votes">%1$.1f (%2$d)</string>
+    <string name="providers_loading">Finding where to watch…</string>
+    <string name="providers_failed">Couldn\'t load streaming info</string>
+    <string name="providers_stream">Stream</string>
+    <string name="providers_rent_buy">Rent or buy</string>
+    <string name="providers_none">Not available to stream in %1$s</string>
+
+    <string name="region_auto">Auto</string>
+    <string name="region_auto_hint">Detect from your location</string>
+    <string name="region_detecting">Detecting your country…</string>
+    <string name="region_source_location">%1$s · from your location</string>
+    <string name="region_source_network">%1$s · from your mobile network</string>
+    <string name="region_source_locale">%1$s · from device settings</string>
+    <string name="region_source_default">%1$s · default</string>
+    <string name="region_search_hint">Search countries</string>
+    <string name="region_loading">Loading countries…</string>
+    <string name="region_selector_description">Choose country</string>
+
+    <string name="back">Back</string>
+    <string name="details_watch_trailer">Watch trailer</string>
+    <string name="details_overview">Overview</string>
+    <string name="details_where_to_watch">Where to watch in %1$s</string>
+    <string name="details_where_to_watch_detecting">Where to watch</string>
+    <string name="details_cast">Cast</string>
+    <string name="details_recommended">You might also like</string>
+    <string name="providers_rent">Rent</string>
+    <string name="providers_buy">Buy</string>
+
+    <string name="attribution">Movie data by TMDB · Streaming data by JustWatch</string>
+</resources>
